@@ -1,0 +1,52 @@
+<div class="container text-center" id="main">
+  <!-- Heading -->
+  <div class="bg">
+    <h1 class="text-center mb-5" id="title">Eat the Burger!</h1>
+
+    <h2 class="text-center mb-5">Create Your Own Burgers to Enjoy!.</h2>
+    <form class="form-inline justify-content-center">
+      <div class="form-group">
+        <label for="input" class="mr-3">New Burger:</label>
+        <input type="text" id="burger" name="name">
+      </div>
+
+      <button type="submit" class="create-form btn btn-outline-danger btn-sm ml-3">Create</button>
+    </form>
+
+    <div class="activity mt-2">
+      <div class="row">
+        <div class="col-4">
+          <h4 class="mb-3">Created Burgers</h4>
+          <ul>
+            {{#each burgers}}
+            {{#unless devoured}}
+            <div class="mt-2">
+              {{this.burger_name}}
+              <button type="button" data-id={{this.id}} data-newDevoured={{devoured}}
+                class="change-devoured ml-2 btn btn-success btn-sm fas fa-hamburger"></button>
+            </div>
+            {{/unless}}
+            {{/each}}
+          </ul>
+        </div>
+
+        <div class="col-4"></div>
+        <div class="col-4">
+          <h4 class="mb-3">Devoured Burgers</h4>
+
+          <ul>
+            {{#each burgers}}
+            {{#if devoured}}
+            <div class="mt-2">
+              {{this.burger_name}}
+              <button type="button" data-id={{this.id}} class="delete-burger ml-2 btn btn-danger btn-sm far fa-trash-alt"></button>
+              </div>
+              {{/if}}
+              {{/each}}
+          </ul>
+
+        </div>
+      </div>
+    </div>
+
+  </div>

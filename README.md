@@ -1,6 +1,6 @@
 # **EatDaBurger**
 
-##About
+## About
 * Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat.
 * Whenever a user submits a burger's name, the app will display the burger on the left side of the page -- waiting to be devoured.
 
@@ -10,45 +10,46 @@
 
 ---
 
-##Live Demo
-This application is deployed to [Heroku](  )Heroku.
+## Live Demo
+    _This application is deployed to [Heroku](  ).
+    _Link to [Github](https://github.com/Razinali/EatDaBurger).
+
 
 ---
 
-##User Instructions
+## User Instructions
 1. Be sure to clone the git project.
 2. Run npm install from the console to make sure you get all the        required dependencies
 3. Add add the following to your root directory .env file:
     ```
-    ## Sever Connection
+    Sever Connection
     ..SERVER_USER = 'your_mysql_user_name_here'
     ..SERVER_SECRET = 'your_mysql_password_here'
     ```
 4. Install the following:
 
 **MySQL NPM Package**
-* [MySQL NPM Package](https://www.npmjs.com/package/mysql)
+    * [MySQL NPM Package](https://www.npmjs.com/package/mysql)
 
-**//MySQL Workbench Documentation**
-* [MySQL Workbench Documentation](http://dev.mysql.com/doc/workbench/en/)
+**MySQL Workbench Documentation**
+    * [MySQL Workbench Documentation](http://dev.mysql.com/doc/workbench/en/)
 
-**//MySQL Workbench Installation**
-* [MySQL Workbench Installation](https://dev.mysql.com/downloads/workbench/)
+**MySQL Workbench Installation**
+    * [MySQL Workbench Installation](https://dev.mysql.com/downloads/workbench/)
 
-5. From the command line, run ``node server.js``
+5. From the command line run ``node server.js``
 
 6. Application is set to run on PORT 8080. Launch a browser using       the URL localhost:8080
 
 ---
 
-##Technologies Used:
-..*MySQL Workbench
-..*nodeJS
-..*JavaScript
-..*Express
-..*Handlebars
-..*A homemade ORM
-
+## Technologies Used:
+*MySQL Workbench
+*nodeJS
+*JavaScript
+*Express
+*Handlebars
+*A homemade ORM
 
 ##Hope You Enjoyed Devouring Your Burger!
 

@@ -11,8 +11,8 @@
 ---
 
 ## Live Demo
-    _This application is deployed to [Heroku](  ).
-    _Link to [Github](https://github.com/Razinali/EatDaBurger).
+    Link to [Github](https://github.com/Razinali/EatDaBurger).
+    This application is deployed to [Heroku](https://git.heroku.com/safe-chamber-90236.git).
 
 
 ---

@@ -2,19 +2,15 @@
 
 ## About
 * Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat.
-* Whenever a user submits a burger's name, the app will display the burger on the left side of the page -- waiting to be devoured.
-
+* Whenever a user `Creates` a burger's name, the app will display the burger on the left side of the page waiting to be devoured.
 * Each burger in the waiting area also has a `Devour it!` button. When the user clicks it, the burger will move to the right side of the page.
-
-* The app  stores every burger in MySQL database, whether devoured or not.
-
+* The app stores every burger in `MySQL database`, whether devoured or not.
 ---
 
-## Live Demo
-    Link to [Github](https://github.com/Razinali/EatDaBurger).
-    This application is deployed to [Heroku](https://git.heroku.com/safe-chamber-90236.git).
-
-
+## Links to Github, Heroku Live Demo 
+_![Eat DA Burger Demo](./public/assets/img/demo-burger.gif)
+_[Github](https://github.com/Razinali/EatDaBurger).
+_[Heroku](https://git.heroku.com/safe-chamber-90236.git).
 ---
 
 ## User Instructions
@@ -28,28 +24,28 @@
     ```
 4. Install the following:
 
-**MySQL NPM Package**
+    **_MySQL NPM Package**
     * [MySQL NPM Package](https://www.npmjs.com/package/mysql)
 
-**MySQL Workbench Documentation**
+    **MySQL Workbench Documentation**
     * [MySQL Workbench Documentation](http://dev.mysql.com/doc/workbench/en/)
 
-**MySQL Workbench Installation**
+    **MySQL Workbench Installation**
     * [MySQL Workbench Installation](https://dev.mysql.com/downloads/workbench/)
 
 5. From the command line run ``node server.js``
 
-6. Application is set to run on PORT 8080. Launch a browser using       the URL localhost:8080
+6. Application is set to run on PORT 8080. Launch a browser using the URL localhost:8080
 
 ---
 
 ## Technologies Used:
-*MySQL Workbench
-*nodeJS
-*JavaScript
-*Express
-*Handlebars
-*A homemade ORM
+* MySQL Workbench
+* nodeJS
+* JavaScript
+* Express
+* Handlebars
+* A homemade ORM
 
-##Hope You Enjoyed Devouring Your Burger!
+## Hope You Enjoyed Creating & Devouring Your Burger!
 

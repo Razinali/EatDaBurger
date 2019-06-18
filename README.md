@@ -10,7 +10,7 @@
 ## Links to Github, Heroku Live Demo 
 _![Eat DA Burger Demo](./public/assets/img/demo-burger.gif)
 _[Github](https://github.com/Razinali/EatDaBurger).
-_[Heroku](https://git.heroku.com/safe-chamber-90236.git).
+_[Heroku](https://glacial-hollows-37390.herokuapp.com/).
 ---
 
 ## User Instructions
